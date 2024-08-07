@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Real Estate Form</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f0f0f0;
+		}
+		.container {
+			width: 50%;
+			margin: 40px auto;
+			background-color: #fff;
+			padding: 20px;
+			border: 1px solid #ddd;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		}
+		label {
+			display: block;
+			margin-bottom: 10px;
+		}
+		input[type="number"] {
+			width: 100%;
+			height: 40px;
+			margin-bottom: 20px;
+			padding: 10px;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+		}
+		select {
+			width: 100%;
+			height: 40px;
+			margin-bottom: 20px;
+			padding: 10px;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+		}
+		input[type="submit"] {
+			width: 100%;
+			height: 40px;
+			background-color: #4CAF50;
+			color: #fff;
+			padding: 10px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		input[type="submit"]:hover {
+			background-color: #3e8e41;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Lahore Real Estate</h1>
+		<form action="" method="post">
+			<label for="area">Area:</label>
+			<input type="number" id="area" name="area" required>
+			<br>
+			<label for="bath">Bath:</label>
+			<input type="number" id="bath" name="bath" required>
+			<br>
+			<label for="bedroom">Bedroom:</label>
+			<input type="number" id="bedroom" name="bedroom" required>
+			<br>
+			<label for="type">Type:</label>
+			<select id="type" name="type" required>
+				<option value="House">House</option>
+				<option value="Flat">Flat</option>
+				<option value="Penthouse">Penthouse</option>
+				<option value="Room">Room</option>
+			</select>
+			<br>
+			<label for="location">Location:</label>
+			<select id="location" name="location" required>
+                <option value="Al Rehman Garden">Al Rehman Garden</option>
+                <option value="Allama Iqbal Town">Allama Iqbal Town</option>
+                <option value="Architects Engineers Housing Society">Architects Engineers Housing Society</option>
+                <option value="Askari">Askari</option>
+                <option value="Bahria Nasheman">Bahria Nasheman</option>
+                <option value="Bahria Orchard">Bahria Orchard</option>
+                <option value="Bahria Town">Bahria Town</option>
+                <option value="Bankers Avenue Cooperative Housing Society">Bankers Avenue Cooperative Housing Society</option>
+                <option value="Bedian Road">Bedian Road</option>
+                <option value="Canal Garden">Canal Garden</option>
+                <option value="Cantt">Cantt</option>
+                <option value="Central Park Housing Scheme">Central Park Housing Scheme</option>
+                <option value="Defence Road">Defence Road</option>
+                <option value="DHA 11 Rahbar">DHA 11 Rahbar</option>
+                <option value="DHA Defence">DHA Defence</option>
+                <option value="Divine Gardens">Divine Gardens</option>
+                <option value="Eden">Eden</option>
+                <option value="EME Society">EME Society</option>
+                <option value="Ferozepur Road">Ferozepur Road</option>
+                <option value="Formanites Housing Scheme">Formanites Housing Scheme</option>
+                <option value="Garden Town">Garden Town</option>
+                <option value="Green City">Green City</option>
+                <option value="GT Road">GT Road</option>
+                <option value="Gulberg">Gulberg</option>
+                <option value="Johar Town">Johar Town</option>
+                <option value="Jubilee Town">Jubilee Town</option>
+                <option value="Kahna">Kahna</option>
+                <option value="Khayaban-e-Amin">Khayaban-e-Amin</option>
+                <option value="Lahore Medical Housing Society">Lahore Medical Housing Society</option>
+                <option value="Lahore Motorway City">Lahore Motorway City</option>
+                <option value="LDA Avenue">LDA Avenue</option>
+                <option value="Marghzar Officers Colony">Marghzar Officers Colony</option>
+                <option value="Military Accounts Housing Society">Military Accounts Housing Society</option>
+                <option value="Model Town">Model Town</option>
+                <option value="Multan Road">Multan Road</option>
+                <option value="Nasheman-e-Iqbal">Nasheman-e-Iqbal</option>
+                <option value="New Lahore City">New Lahore City</option>
+                <option value="Pak Arab Housing Society">Pak Arab Housing Society</option>
+                <option value="Paragon City">Paragon City</option>
+                <option value="Park View City">Park View City</option>
+                <option value="Punjab Coop Housing Society">Punjab Coop Housing Society</option>
+                <option value="Punjab Govt Employees Society">Punjab Govt Employees Society</option>
+                <option value="Punjab University Employees Society">Punjab University Employees Society</option>
+                <option value="Raiwind Road">Raiwind Road</option>
+                <option value="Sabzazar Scheme">Sabzazar Scheme</option>
+                <option value="Samanabad">Samanabad</option>
+                <option value="Shadab Garden">Shadab Garden</option>
+                <option value="State Life Housing Society">State Life Housing Society</option>
+                <option value="Thokar Niaz Baig">Thokar Niaz Baig</option>
+                <option value="Valencia Housing Society">Valencia Housing Society</option>
+                <option value="Wapda Town">Wapda Town</option>
+                <option value="Others">Others</option>
+                </select>
+			<br>
+			<input type="submit" value="Submit">
+		</form>
+	</div>
+</body>
+</html>
